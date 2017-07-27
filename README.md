@@ -7,7 +7,7 @@ If you want to build miui yourself using this repository, setup your linux for a
 
 - mkdir /build/MIUI
 - cd /build/MIUI
-- repo init -u git://github.com/airwa1kin7/patchrom.git -b marshmallow
+- repo init -u git://github.com/LuckyRepo/patchrom.git -b marshmallow
 - repo sync
 - . build/envsetup.sh && cd angler && make fullota
 - adb sideload out/fullota.zip
